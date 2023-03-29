@@ -1,0 +1,29 @@
+
+#logo{
+    float:left;
+    
+}
+
+.menu{
+    float:right;
+    background-color: aqua;
+    line-height: 100px;
+    margin-right: 20px;
+
+}
+
+.menu li{
+    display:inline-block;
+    font-size: x-large;
+    padding:5px;
+}
+
+.header-logo{
+    float:left;
+    width: 400px;
+    height: 210px;
+
+}
+.header-logo img{
+    object-fit:scale-down; 
+}
