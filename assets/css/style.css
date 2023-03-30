@@ -46,7 +46,7 @@
 /* Hero Image */
 
 #hero-outer{
-    height: 700px;
+    height: 1000px;
     width:100%;
     overflow: hidden;
     position:relative;
@@ -55,20 +55,20 @@
 #hero-image{
     height: inherit;
     width:100%;
-    background:url("../images/We_care_about_your_best_friends_1920_700_px.png") no-repeat center center;
+    background:url("../images/We_care_about_your_best_friends_1920_700_px_2100_700_px_2200_700_px.png") no-repeat center center;
     background-size: cover;
     position: relative;
 }
 
 #hero-text{
-    font-size:2.5vw;
+    font-size:2vw;
     text-align: center;
     color: #7A4850;
     position: absolute;
     width: inherit;
     height: inherit;
     top:50%;
-    left: 25%;
+    left: 20%;
     
 
 }
