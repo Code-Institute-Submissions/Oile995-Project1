@@ -1,29 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
-#logo{
-    float:left;
+*{
+    font-family: 'Fjalla One', sans-serif;
     
 }
 
+
+/* Header style */
+
+.header-logo{
+    float:left;
+    width: 550px;
+    height: 210px;
+    background:url("../images/Pawesome_2.png") no-repeat center center;
+    background-size: cover;
+}
+
 .menu{
-    float:right;
-    background-color: aqua;
+    width: 75%;
+    height: 210px;
+    color:#7A4850;
     line-height: 100px;
-    margin-right: 20px;
+    padding-left: 500px;
+    text-align: center;
+    top:50%;
+    left:50%;
 
 }
 
 .menu li{
     display:inline-block;
-    font-size: x-large;
-    padding:5px;
+    padding:20px;
+}
+.menu a{
+    text-decoration: none;
+    color:#7A4850;
+    font-weight: bold;
+    font-size: 350%;
 }
 
-.header-logo{
-    float:left;
-    width: 400px;
-    height: 210px;
-
+.menu a:hover{
+    text-decoration-line: underline;
 }
-.header-logo img{
-    object-fit:scale-down; 
+
+/* Hero Image */
+
+#hero-outer{
+    height: 700px;
+    width:100%;
+    overflow: hidden;
+    position:relative;
+}
+
+#hero-image{
+    height: inherit;
+    width:100%;
+    background:url("../images/We_care_about_your_best_friends_1920_700_px.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-text{
+    font-size:2.5vw;
+    text-align: center;
+    color: #7A4850;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top:50%;
+    left: 25%;
+    
+
 }
