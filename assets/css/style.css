@@ -4,6 +4,9 @@
     font-family: 'Fjalla One', sans-serif;
     
 }
+.body{
+    max-width: 2600px;
+}
 a{
     text-decoration: none;
 }
@@ -17,26 +20,28 @@ li{
     color: aliceblue;
 }
 
+header{
+    height:223px;
+}
+
 /* Header style */
 
 .header-logo{
     float:left;
-    width: 550px;
-    height: 210px;
+    width: 30rem;
+    height: 14rem;
     background:url("../images/Pawesome_2.png") no-repeat center center;
     background-size: cover;
 }
 
 .menu{
-    width: 75%;
-    height: 210px;
+    float:right;
+    width:60rem;
+    height: 3rem;
     color:#7A4850;
-    line-height: 100px;
-    padding-left: 500px;
+    line-height: 50px;
     text-align: center;
-    top:50%;
-    left:50%;
-
+    padding: 35px 0;
 }
 
 .menu li{
@@ -46,7 +51,7 @@ li{
 .menu a{
     color:#7A4850;
     font-weight: bold;
-    font-size: 350%;
+    font-size: 3rem;
 }
 
 .menu a:hover{
@@ -57,7 +62,7 @@ li{
 
 #hero-outer{
     height: 900px;
-    width:100%;
+    width: 100%;
     overflow: hidden;
     position:relative;
 }
@@ -65,8 +70,8 @@ li{
 #hero-image{
     height: inherit;
     width:100%;
-    /*background:url("../images/We_care_about_your_best_friends_1920_700_px_2100_700_px_2200_700_px.png") no-repeat center center;*/
-    background-size: cover;
+    background:url("../images/Hero-easter.png") no-repeat center center;
+    
     position: relative;
 }
 
@@ -100,7 +105,7 @@ li{
 }
 
 .offers-left{
-    width:33%;
+    width:55rem;
     height: auto;
     float:left;
     padding-left:50px;
@@ -108,7 +113,7 @@ li{
 }
 
 .offers-right{
-    width:33%;
+    width:55rem;
     height: auto;
     float:right;
     padding-right: 50px;
@@ -116,10 +121,9 @@ li{
 }
 
 .offers-center{
-    width:33%;
+    width:55rem;
     height: auto;
     margin:auto;
-    margin-top: 300px;
     position: relative;
     padding-left: 25px;
     padding-right: 25px;
@@ -219,6 +223,9 @@ li{
     top: 50%;
     left: 30%;
 }
+
+/* Contact details */
+
 
 /* Footer details */
 footer{
