@@ -2,10 +2,13 @@
 
 *{
     font-family: 'Fjalla One', sans-serif;
-    
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 .body{
-    max-width: 2600px;
+    max-width: 2000px;
+    margin: auto;
 }
 a{
     text-decoration: none;
@@ -21,22 +24,23 @@ li{
 }
 
 header{
-    height:223px;
+    height: 170px;
 }
 
 /* Header style */
 
 .header-logo{
     float:left;
-    width: 30rem;
-    height: 14rem;
+    margin-top: 1px;
+    width: 27rem;
+    height: 10.6rem;
     background:url("../images/Pawesome_2.png") no-repeat center center;
     background-size: cover;
 }
 
 .menu{
     float:right;
-    width:60rem;
+    width:50rem;
     height: 3rem;
     color:#7A4850;
     line-height: 50px;
@@ -51,7 +55,7 @@ header{
 .menu a{
     color:#7A4850;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .menu a:hover{
@@ -61,7 +65,7 @@ header{
 /* Hero Image */
 
 #hero-outer{
-    height: 900px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position:relative;
@@ -89,10 +93,11 @@ header{
 /* Home page Why Pawesome */
 
 .Why-pawesome-outer{
-    height: 800px;
+    height: 600px;
     width:100%;
     overflow: hidden;
     position:relative;
+    padding-top: 100px;
 }
 
 #awesome-pawesome{
@@ -105,28 +110,27 @@ header{
 }
 
 .offers-left{
-    width:55rem;
+    width:40rem;
     height: auto;
     float:left;
-    padding-left:50px;
+    padding-left:40px;
     position: relative;
 }
 
 .offers-right{
-    width:55rem;
+    width:40rem;
     height: auto;
     float:right;
-    padding-right: 50px;
+    padding-right: 40px;
     position: relative; 
 }
 
 .offers-center{
-    width:55rem;
-    height: auto;
+    width: 40rem;
+    height: 40rem;
     margin:auto;
     position: relative;
-    padding-left: 25px;
-    padding-right: 25px;
+
 }
 
 #center{
@@ -169,8 +173,32 @@ header{
 }
 
 /* Media queries taken from: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 and  */
-@media screen and (max-width:1200px){
+@media screen and (max-width:1235px){
+    .menu{
+        width: 25rem;
+        padding: 0;
+    }
+    #hero-image{
+        height: inherit;
+        width:100%;
+        background-size: cover;
+    }
 
+
+}
+
+@media screen and (max-width:835px){
+    .menu{
+        float:left;
+        width:30rem;
+        padding: 0;
+    }
+    .menu li{
+        padding:10px;
+    }
+    .menu a{
+        font-size: 1.5rem;
+    }
 
 
 }
