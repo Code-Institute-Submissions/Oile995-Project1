@@ -111,7 +111,7 @@ header{
 
 .offers-left{
     width:40rem;
-    height: auto;
+    height: 40rem;
     float:left;
     padding-left:40px;
     position: relative;
@@ -119,7 +119,7 @@ header{
 
 .offers-right{
     width:40rem;
-    height: auto;
+    height: 40rem;
     float:right;
     padding-right: 40px;
     position: relative; 
