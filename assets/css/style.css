@@ -4,7 +4,13 @@
     font-family: 'Fjalla One', sans-serif;
     
 }
+a{
+    text-decoration: none;
+}
 
+li{
+    list-style-type: none;
+}
 
 /* Header style */
 
@@ -33,7 +39,6 @@
     padding:20px;
 }
 .menu a{
-    text-decoration: none;
     color:#7A4850;
     font-weight: bold;
     font-size: 350%;
@@ -74,7 +79,7 @@
 /* Home page Why Pawesome */
 
 #Why-pawesome-outer{
-    height: 700px;
+    height: 900px;
     width:100%;
     overflow: hidden;
     position:relative;
@@ -97,41 +102,48 @@
     position: relative;
 }
 
+.offers-right{
+    width:33%;
+    height: auto;
+    float:right;
+    padding-right: 50px;
+    position: relative; 
+}
+
 .offers-center{
     width:33%;
     height: auto;
     margin:auto;
     margin-top: 300px;
     position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-.offers-right{
-    width:33%;
-    height: auto;
-    float:right;
-    padding-right: 50px;
-    position: relative;
-    
-}
-
-.center{
+#center{
     display: block;
-    height: auto;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
 .overlay-info{
-    position: absolute 0 0 0 0;
-    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
     height: 100%;
     opacity: 0;
     transition: 0.5s ease;
     background-color: #7A4850;
-
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.offers-left:hover .overlay-info{
+
+.offers-left:hover .overlay-info, .offers-right:hover .overlay-info, .offers-center:hover .overlay-info{
     opacity: 1;
 }
 
@@ -139,7 +151,38 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+    text-shadow:2px 2px black;
 }
+
+@media screen and (max-width:1200px){
+
+
+
+}
+
+/* Packages details */
+
+#packages-outer{
+    height: 700px;
+    width:100%;
+    overflow: hidden;
+    position:relative;
+}
+
+#packages-image{
+    height: inherit;
+    width:100%;
+    /*background:url("../images/We_care_about_your_best_friends_1920_700_px_2100_700_px_2200_700_px.png") no-repeat center center;*/
+    background-size: cover;
+    position: relative;
+}
+
+
 
 /* Footer details */
 footer{
@@ -167,5 +210,6 @@ footer{
     text-align: center;
     font-size: large;
     color:lightgray;
+    
 }
 
