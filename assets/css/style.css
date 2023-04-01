@@ -72,11 +72,11 @@ header{
 }
 
 #hero-image{
-    height: inherit;
+    height: auto;
     width:100%;
-    background:url("../images/Hero-easter.png") no-repeat center center;
-    
+   /* background:url("../images/Hero-easter.png") no-repeat center center;*/
     position: relative;
+    object-fit: cover;
 }
 
 #hero-text{
@@ -135,7 +135,7 @@ header{
 
 #center{
     display: block;
-    height: 40rem;
+    height: 20rem;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
