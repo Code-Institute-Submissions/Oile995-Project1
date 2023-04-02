@@ -295,45 +295,95 @@ footer{
 
 }
 
-@media screen and (max-width:835px){
-    .menu{
+@media screen and (min-width:480px) and ( max-width:835px){
+    header{
+        height: 70px;
+    }
+    .header-logo{
         float:left;
-        width:30rem;
+        margin: 0;
         padding: 0;
+        width: 10rem;
+        height: 6rem;
+         background:url("../images/Pawesome_2.png") no-repeat left center;
+        background-size: contain;
+    }
+    .menu{
+        float:right;
+        text-align: right;
+        width:19rem;
+        height: 2.2rem;
+        padding: 0;
+        line-height: 90px;
     }
     .menu li{
-        padding:10px;
+        padding:2px;
     }
     .menu a{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
 
 }
 
 @media screen and (max-width:480px){
-    
+    header{
+        height: 70px;
+    }
     .header-logo{
         float:left;
-        margin: 0;
+        margin: -10px 0 -30px 0;
         padding: 0;
-        width: 20rem;
-        height: 7rem;
-        background:url("../images/Pawesome_2.png") no-repeat center center;
-        background-size: cover;
+        width: 10rem;
+        height: 6rem;
+         background:url("../images/Pawesome_2.png") no-repeat left center;
+        background-size: contain;
     }
     .menu{
-        float:left;
-        width:25rem;
-        margin: 0 auto;
+        float:right;
+        text-align: right;
+        width:15rem;
+        height: 1.1rem;
         padding: 0;
-        text-align: left;
+        line-height: 80px;
     }
     .menu li{
         padding:1px;
     }
     .menu a{
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+
+
+}
+
+@media screen and (max-width:400px){
+    header{
+        height: 2rem;
+    }
+    
+    .header-logo{
+        float:left;
+        margin: 0;
+        padding: 0;
+        width: 4rem;
+        height: 2rem;
+         background:url("../images/Pawesome_2.png") no-repeat left center;
+        background-size: contain;
+    }
+    .menu{
+        float:right;
+        text-align: right;
+        width:12rem;
+        height: 1.1rem;
+        padding: 0;
+        line-height: 20px;
+    }
+    .menu li{
+        padding:1px;
+    }
+    .menu a{
+        font-size: 0.5rem;
     }
 
 
