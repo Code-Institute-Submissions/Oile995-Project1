@@ -79,15 +79,24 @@ header{
     object-fit: cover;
 }
 
-#hero-text{
+#home-hero-text{
     font-size:1.5vw;
     text-align: center;
     color: #7A4850;
     position: absolute;
-    width: inherit;
-    height: inherit;
-    top: 22%;
-    left: 27%;
+    top: 10vw;
+    right: 17vw;
+
+}
+#about-hero-text{
+    font-size:1.2vw;
+    text-align: center;
+    color: #7A4850;
+    position: absolute;
+    width: 20vw;
+    height: 22vw;
+    top: 10vw;
+    left: 30vw;
 }
 
 /* Home page Why Pawesome */
@@ -172,36 +181,7 @@ header{
     text-shadow:2px 2px black;
 }
 
-/* Media queries taken from: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 and  */
-@media screen and (max-width:1235px){
-    .menu{
-        width: 25rem;
-        padding: 0;
-    }
-    #hero-image{
-        height: inherit;
-        width:100%;
-        background-size: cover;
-    }
 
-
-}
-
-@media screen and (max-width:835px){
-    .menu{
-        float:left;
-        width:30rem;
-        padding: 0;
-    }
-    .menu li{
-        padding:10px;
-    }
-    .menu a{
-        font-size: 1.5rem;
-    }
-
-
-}
 
 /* Packages details */
 
@@ -284,3 +264,77 @@ footer{
     
 }
 
+/* Media queries taken from: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 and  */
+@media screen and (min-width:1999px){
+
+#home-hero-text{
+    font-size:30px;
+    top: 197.9px;
+    right: 336.4px;
+
+}
+#about-hero-text{
+    font-size:25px;
+    width: 400px;
+    height: 300px;
+    top: 197.7px;
+    left: 599.1px;
+}
+}
+@media screen and (max-width:1235px){
+    .menu{
+        width: 25rem;
+        padding: 0;
+    }
+    #hero-image{
+        height: inherit;
+        width:100%;
+        background-size: cover;
+    }
+
+
+}
+
+@media screen and (max-width:835px){
+    .menu{
+        float:left;
+        width:30rem;
+        padding: 0;
+    }
+    .menu li{
+        padding:10px;
+    }
+    .menu a{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media screen and (max-width:480px){
+    
+    .header-logo{
+        float:left;
+        margin: 0;
+        padding: 0;
+        width: 20rem;
+        height: 7rem;
+        background:url("../images/Pawesome_2.png") no-repeat center center;
+        background-size: cover;
+    }
+    .menu{
+        float:left;
+        width:25rem;
+        margin: 0 auto;
+        padding: 0;
+        text-align: left;
+    }
+    .menu li{
+        padding:1px;
+    }
+    .menu a{
+        font-size: 1rem;
+    }
+
+
+}
