@@ -9,6 +9,7 @@
 .body{
     max-width: 2000px;
     margin: auto;
+    color: #7A4850;
 }
 a{
     text-decoration: none;
@@ -101,6 +102,22 @@ header{
     height: 22vw;
     top: 10vw;
     left: 30vw;
+}
+/* About page Gallery */
+
+/* About page Gallery container */
+.gallery{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+}
+/* About page video dimention and position */
+.video{
+    width: 20vw;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10vw;
 }
 
 /* Home page Why Pawesome */
@@ -203,7 +220,7 @@ header{
 
 /* Home page Packages details container */
 .packages-outer{
-    height: 25vw;
+    height: 35vw;
     width:100%;
     overflow: hidden;
     position:relative;
@@ -244,7 +261,7 @@ header{
     top: 50%;
     right: 33%;
 }
-.standard{
+.standard-text{
     font-size:1.25vw;
     text-align: center;
     color: #7A4850;
@@ -255,7 +272,7 @@ header{
     left: 0%;
 }
 
-.spa-day{
+.spa-day-text{
     font-size:1.25vw;
     text-align: center;
     color: #7A4850;
@@ -283,6 +300,7 @@ header{
     height: 30vw;
     border-radius: 9px;
     background-color: #B1D4E0;
+    color:black;
     padding: 3vw;
     font-size: 1vw;
 
@@ -351,6 +369,9 @@ footer{
     font-size: 1vw;
 
 }
+footer h3{
+    font-size: 1vw;
+}
 /* Footer left section */
 #footer-left{
     float:left;
@@ -367,8 +388,9 @@ footer{
 #footer-center{
     text-align: center;
     color:lightgray;
-    
+    height: inherit;    
 }
+
 /* Footer link styling */
 footer a{
     color: lightgray;
@@ -436,6 +458,56 @@ footer a{
     }
     .menu a{
         font-size: 1rem;
+    }
+    /* About page, scale up video for better view when width is less than height */
+    .video{
+        width: 30vw;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 10vw;
+    }
+        /* Contact page, form container */
+    .contact-container-left{
+        position: relative;
+        float: none;
+        width:70%;
+        height: 40vw;
+        margin:auto;
+        object-fit: contain;
+        margin-top: 0vw;
+        border-radius: 9px;
+        padding: 3vw;
+        font-size: 1.5vw;
+    }
+    /* Contact page, map container */
+    .contact-container-right{
+        position: relative;
+        float: none;
+        width:70%;
+        height: 40vw;
+        margin:auto;
+        object-fit: contain;
+        padding-bottom: 10vw;
+        margin-top: 2vw;
+        border-radius: 9px;
+        padding: 3vw;;
+    }
+    /* Contact page, scale font for tower view*/
+    #full-name{
+        font-size: 1,5vw;
+    }
+    #email{
+        font-size: 1.5vw;
+    }
+    form select{
+        font-size: 1.5vw;
+    }
+    form input[type=submit]{
+        font-size: 1.5vw;
+    }
+    #message{
+        font-size: 1vw;
+        height: 10vw;
     }
 }
 /* For Phones and older devices */
@@ -507,7 +579,7 @@ footer a{
         position: absolute;
         width: inherit;
         height: inherit;
-        top: 30vw;
+        top: 32vw;
         left: 0%;
     }
     .standard-text{
@@ -517,7 +589,7 @@ footer a{
         position: absolute;
         width: inherit;
         height: inherit;
-        top: 108vw;
+        top: 110vw;
         left: 0%;
     }
     
@@ -528,7 +600,7 @@ footer a{
         position: absolute;
         width: inherit;
         height: inherit;
-        top: 68vw;
+        top: 70vw;
         left: 0%;
     }
      /* Home page, pawesome offers overlay size correction */
@@ -553,7 +625,58 @@ footer a{
         margin-right: auto;
         width: 5vw;
     }
+    /* About page, scale up video for better view on tall screen */
+    .video{
+        width: 60vw;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 10vw;
     }
+    /* Contact page, form container */
+    .contact-container-left{
+        position: relative;
+        float: none;
+        width:85%;
+        height: 70vw;
+        margin:auto;
+        object-fit: contain;
+        padding-bottom: 10vw;
+        margin-top: 5vw;
+        border-radius: 9px;
+        padding: 3vw;
+        font-size: 2vw;
+    }
+    /* Contact page, map container */
+    .contact-container-right{
+        position: relative;
+        float: none;
+        width:85%;
+        height: 70vw;
+        margin:auto;
+        object-fit: contain;
+        padding-bottom: 10vw;
+        margin-top: 5vw;
+        border-radius: 9px;
+        padding: 3vw;;
+    }
+    /* Contact page, scale font for tower view*/
+    #full-name{
+        font-size: 2vw;
+    }
+    #email{
+        font-size: 2vw;
+    }
+    form select{
+        font-size: 2vw;
+    }
+    form input[type=submit]{
+        font-size: 2vw;
+    }
+    #message{
+        font-size: .5vw;
+        height: 30vw;
+    }
+}
 /* For older Phones */
 @media screen and (max-width:400px){
     /* Scale down the header elements */    
