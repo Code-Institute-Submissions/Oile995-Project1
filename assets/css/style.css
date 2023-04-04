@@ -141,7 +141,7 @@ header{
 }
 /* Home page Why Pawesome div containers, left right center */
 .offers-left{
-    width:30%;
+    width:25%;
     height: auto;
     float:left;
     padding-left:40px;
@@ -150,7 +150,7 @@ header{
 }
 
 .offers-right{
-    width:30%;
+    width:25%;
     height: auto;
     float:right;
     padding-right: 40px;
@@ -159,7 +159,7 @@ header{
 }
 
 .offers-center{
-    width:30%;
+    width:25%;
     height: auto;
     margin:auto;
     position: relative;
