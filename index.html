@@ -12,6 +12,7 @@
     <title>Pawesome</title>
 </head>
 <body class="body">
+    <!--Header section with Navigation-->
     <header>
         <a href="index.html">
             <div class="header-logo img"></div>
@@ -19,17 +20,13 @@
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li> 
-                    <!-- bookmark taken from https://www.w3schools.com/html/html_links_bookmarks.asp-->
-                    <a href="#grooming">Grooming Packages</a>
+                    <a href="index.html" aria-label="Navigates to home page">Home</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" aria-label="Navigates to Contact page">Contact</a>
                 </li>
                 <li>
-                    <a href="about-us.html">About Us</a>
+                    <a href="about-us.html" aria-label="Navigates to About us page">About Us</a>
                 </li>
             </ul>
         </nav>
@@ -52,64 +49,67 @@
         <div>
             <h1 id="awesome-pawesome"> Why Pawesome is Awesome!</h1>
         </div>
+        <!--Left div container of why choose Pawesome-->
         <div class="offers-left">
-            <img id="center" src="assets/images/wellbeing.png" style="max-width: 100%; height: auto;"alt="Heart-beat wave (hover for text menu).">
-            <div class="overlay-info" id="center-text">
+            <img class="center" src="assets/images/wellbeing.png" style="max-width: 100%; height: auto;" alt="Heart-beat wave (hover for text-box).">
+            <div class="overlay-info" class="center-text">
                 <div class="overlay-text">
                     <h3>We care about the wellbeing of your best friend! </h3>
                     <p> At Pawesome we treat all pets like they are our own</p>
                 </div>
             </div>
         </div>
+        <!--Right div container of why choose Pawesome-->
         <div class="offers-right">
-            <img id="center" src="assets/images/cruelty-free.png" style="max-width: 100%; height: auto;" alt="Black logo of bunny and Cruelty-free text (hover for text menu).">
-            <div class="overlay-info" id="center-text">
+            <img class="center" src="assets/images/cruelty-free.png" style="max-width: 100%; height: auto;" alt="Black logo of bunny and Cruelty-free text (hover for text-box).">
+            <div class="overlay-info" class="center-text">
                 <div class="overlay-text" >
                     <h3> Cruely-free products!</h3>
                     <p> We are adement at using only cruelty-free tested products</p>
                 </div>
             </div>
         </div>
+        <!--Center div container of why choose Pawesome-->
         <div class="offers-center">
-            <img id="center" src="assets/images/gentle.png" style="max-width: 100%; height: auto;" alt="Fist and paw fistbumping(hover for text menu).">
-            <div class="overlay-info" id="center-text">
+            <img class="center" src="assets/images/gentle.png" style="max-width: 100%; height: auto;" alt="Fist and paw fistbumping(hover for text-box).">
+            <div class="overlay-info" class="center-text">
                 <div class="overlay-text">
                     <h3> Gentle hands only!</h3>
                     <p> You can be sure that your best friend is in the gentle hands of experienced groomers</p>
                 </div>
             </div>
         </div>
-         <!--Packages and offers section-->
+
     </section>
+    <!--Packages and offers section-->
     <section class="packages-outer">
-        <div id="grooming" class="mini-img">
-            <img id="center" src="assets/images/dog-wash.jpg" style="max-width: 100%; height: auto;"alt="Happy dog getting washed">
+        <!--Left div container of Washing package-->
+        <div class="mini-img">
+            <img class="center" src="assets/images/dog-wash.jpg" style="max-width: 100%; height: auto;" alt="Happy dog getting washed">
         </div>
         <div id="mini-text"> 
             <h2> Bath and trim!</h2>
             <h4> We wash your pet and trim it's claws</h4>
         </div>
+        <!--Right div container of Full Spa-day package-->
         <div class="spa-img">
-            <img id="center" src="assets/images/dog-spa.jpg" style="max-width: 100%; height: auto;" alt="Dog relaxing with towls and cucumber over the eyes">
+            <img class="center" src="assets/images/dog-spa.jpg" style="max-width: 100%; height: auto;" alt="Dog relaxing with towls and cucumber over the eyes">
         </div>
         <div id="spa-day"> 
-            <h2> Grooming!</h2>
-            <h4> We proffesionally groom your pet per breed standards</h4>
-        </div>
-        <div class="standard-img">
-            <img id="center" src="assets/images/dog-grooming.jpg" style="max-width: 100%; height: auto;" alt="Dog getting the final touches of grooming">
-        </div>
-        <div id="standard"> 
             <h2> Full spa day!</h2>
             <h4> We wash, groom and trim your pet's claws</h4>
         </div>
+        <!--Center div container of Grooming package-->
+        <div class="standard-img">
+            <img class="center" src="assets/images/dog-grooming.jpg" style="max-width: 100%; height: auto;" alt="Dog getting the final touches of grooming">
         </div>
-        
+        <div id="standard"> 
+            <h2> Grooming!</h2>
+            <h4> We wash and proffesionally groom your pet per breed standards</h4>
+        </div>        
     
     </section>
     <br>
-
-
              <!--Footer section-->
     <footer>
         <div id="footer-left">
@@ -123,13 +123,12 @@
                 </li>
             </ul>
         </div>
-        <span>
         <div id="footer-right">
             <h2> Find us at: </h2>
             <a href="https://goo.gl/maps/LLuNrWs7hJpLoJyJ7" aria-label="Find us on google maps (opens in new tab)" target="_blank">
                 <h5> 62 Grovefield Cres, Balsall Common,<br> Coventry CV7 7RE, UK </h5>
+            </a>
         </div>
-        </span>
         <div id="footer-center">
             <h2> Follow us on: </h2>
             <a href="https://www.facebook.com" aria-label="Go to our Facebook page (opens in new tab)" target="_blank">
