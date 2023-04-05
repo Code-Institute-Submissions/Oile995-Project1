@@ -2,6 +2,9 @@
 
 PAWESOME Grooming is a website that advertise and provide contact details to a fictional pet grooming business. Pawesome provides first class pet care and will groom and take care of your best friend!
 This website allow you to browse Pawesomes package-options, our standards, how to locate and contact us for more information or book an appointment. 
+
+![Responsive Mockup](https://github.com/Oile995/Project1/tree/main/assets/images/mock-up-home2.png)
+
 ## Index - Table of Contents
 * [List of features]()
 * [UX/UI]()
