@@ -74,11 +74,52 @@ __As a returning user the goal is to:__
 - Easy to use contact form which gives the user consistency when booking recurrent pet grooming sessions.
 - All the sections are easy to access and view the menu quickly and easily.
 
-
-
-
-
 ### TESTING
+
+__Validator__
+
+[HTTP-Validator](https://validator.w3.org/nu/)
+- Index.html <br>
+![Index](documentation/media/passed.PNG)
+- Contact.html <br>
+![contact](documentation/media/passed.PNG)
+- About.html <br>
+![about](documentation/media/passed.PNG)
+- style.css <br>
+![style](documentation/media/passed-css.PNG)
+
+__Manual Testing__
+- The testing was done on all of the following links and they all passed:
+
+__Navigation bar:__
+- The logo picture links to the home page
+- The menu links to all of the three pages of the site: Home, Contact and About Us
+- The underline of the three pages on the menu works correctly when hovered over
+- The navigation menu is responsive on all devices and moves under the Pawesome logo when the website is opened on a lower screen size device.
+
+__Footer:__
+- The social media links lead to the appropriate social media accounts
+- The footer informational text is responsive and stays the same when the website is viewed from a lower size screen.
+
+__Hero image:__
+- The hero image is responsive and scales correctly on all screen sizes and devices.
+
+__Contact:__
+- The Contact section correctly links to a contact form that users can fill out and doesn’t allow the user to submit the form if the 3 mandatory fields are not filled in (Name, E-mail address and Select a Package). The last field is optional.
+- The map container works correctly and shows the location of Pawesome.
+- When viewed from a lower screen size the containers are responsive and have a tower layout.
+
+__About Us:__
+- The About us section link works correctly.
+- The video at the bottom automatically plays when the users are in this section with the ability to pause it at any time.
+- Tested and scales properly on all screen sizes and devices
+
+__Bugs__
+- Video does not load in Firefox Web-browser
+
+__Browser Compatibility__
+
+- Webpage is compatibal with Opera, Chrome, Edge and Firefox(though the video element does not work in Firefox)
 
 
 ### DEPLOYMENT
@@ -108,8 +149,11 @@ __Code__
 - Code on how to implement and style form base on code from: [W3C CSS forms](https://www.w3schools.com/css/css_form.asp)
 - Code on how to implement video base on code from: [W3C HTML video](https://www.w3schools.com/html/html5_video.asp) and [Code Institute HTML Media Video Challenge](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/9ef7d9aa0ce94faca103bb92b1003e45/)
 - Code on how to do media queries and known presets based on code from: [Known sizing by gokulkrishh](https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488) and [Code Institute Love running Responsive Elements](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/d48e6af85eb84191bebd57ece8b6fb73/)
+- Code on how to make responsive Google map taken from: [5 ways to add responsive maps](https://blog.duda.co/responsive-google-maps-for-your-website)
 
 __Media:__<br>
+
+- Fonts taken from [Google fonts](https://fonts.google.com/specimen/Fjalla+One)
 
 - Home page, package pictures below with their source hyperlinks:<br>
 [dog-grooming.jpg](https://pawfectspa.com/wp-content/uploads/2019/11/dog-grooming-time.jpg)    
