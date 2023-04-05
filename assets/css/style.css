@@ -114,7 +114,6 @@ header{
 }
 /* About page video dimention and position */
 .video{
-    width: 20vw;
     display: block;
     margin: 0 auto;
     padding-bottom: 10vw;
@@ -461,7 +460,7 @@ footer a{
     }
     /* About page, scale up video for better view when width is less than height */
     .video{
-        width: 30vw;
+        width: 45vw;
         display: block;
         margin: 0 auto;
         padding-bottom: 10vw;
@@ -494,7 +493,7 @@ footer a{
     }
     /* Contact page, scale font for tower view*/
     #full-name{
-        font-size: 1,5vw;
+        font-size: 1.5vw;
     }
     #email{
         font-size: 1.5vw;
@@ -627,10 +626,12 @@ footer a{
     }
     /* About page, scale up video for better view on tall screen */
     .video{
-        width: 60vw;
+        width: 90vw;
+        height: 100vw;
         display: block;
         margin: 0 auto;
         padding-bottom: 10vw;
+        padding-top: 20vw;
     }
     /* Contact page, form container */
     .contact-container-left{
@@ -657,7 +658,7 @@ footer a{
         padding-bottom: 10vw;
         margin-top: 5vw;
         border-radius: 9px;
-        padding: 3vw;;
+        padding: 3vw;
     }
     /* Contact page, scale font for tower view*/
     #full-name{
@@ -684,7 +685,7 @@ footer a{
         height: 2rem;
     }
     .header-logo{
-        float:left;
+        float: left;
         margin: 0;
         padding: 0;
         width: 4rem;
