@@ -441,7 +441,6 @@ footer a{
         padding: 0;
         width: 10rem;
         height: 6rem;
-         background:url("../images/Pawesome_logo.png") no-repeat left center;
         background-size: contain;
     }
     .menu{
@@ -460,7 +459,8 @@ footer a{
     }
     /* About page, scale up video for better view when width is less than height */
     .video{
-        width: 45vw;
+        width: 250px;
+        height: 500px;
         display: block;
         margin: 0 auto;
         padding-bottom: 10vw;
@@ -626,8 +626,8 @@ footer a{
     }
     /* About page, scale up video for better view on tall screen */
     .video{
-        width: 90vw;
-        height: 100vw;
+        width: 250px;
+        height: 500px;
         display: block;
         margin: 0 auto;
         padding-bottom: 10vw;
