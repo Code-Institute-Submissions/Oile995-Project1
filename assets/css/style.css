@@ -130,7 +130,7 @@ header{
     padding-top: 5vw;
 }
 /* Home page Why Pawesome head text */
-#awesome-pawesome{
+.awesome-pawesome{
     font-size:2vw;
     text-align: center;
     color: #7A4850;
